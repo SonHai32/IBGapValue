@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="ConsoleTables" Version="2.4.2" />
+    <PackageReference Include="CsvHelper" Version="28.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CSharpAPI">
+      <HintPath>..\..\..\..\..\..\TWS API\samples\CSharp\IBSampleApp\bin\Release\CSharpAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

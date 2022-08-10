@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IBGapValue": {
+      "commandName": "Project",
+      "commandLineArgs": "-e NYSE"
+    }
+  }
+}
